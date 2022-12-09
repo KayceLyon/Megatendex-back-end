@@ -19,7 +19,7 @@ const shadowSchema =  new Schema ({
     skills: [String],
     area: [String],
     item: String,
-    isEnemy: true
+    isEnemy: Boolean
 })
 
 const Shadow = mongoose.model('Shadow', shadowSchema)
